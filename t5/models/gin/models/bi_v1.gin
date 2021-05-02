@@ -7,4 +7,3 @@ transformer.Unitransformer.positional_embedding = False
 # this bias differs across attention heads but is shared across different
 #  layers in a stack (to save time)
 transformer_layers.SelfAttention.relative_attention_type = "bias_shared"
-DenseReluDense.activation = ["gelu", "linear"]
