@@ -11,7 +11,7 @@
 # Also note that (although it is not dictated by this config), the checkpoints
 #   released for this config were trained on C4 only rather than a mix of tasks.
 
-include 'bi_v1_large.gin'
+include 'models/bi_v1_large.gin'
 
 d_ff = 2816
 DenseReluDense.activation = ["gelu", "linear"]
